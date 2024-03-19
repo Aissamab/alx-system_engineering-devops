@@ -1,15 +1,16 @@
 #!/usr/bin/env bash
-# Configure Nginx server so that /redirect_me is redirecting to another page
+# redirection 301 moved permanetly
 
-# Install nginx
+# updating the packages and and installing nginx
 sudo apt-get update
 sudo apt-get install -y nginx
 
+# creating index.html file
+echo "Hello World!" | sudo tee /var/www/index.html
 
-# add the following configuration to the existing server block
-string_for_replacement="server_name _;\n\trewrite ^\/redirect_me https:\/\/www.google.com permanent;"
-
+# Performing a 301 redirection
+string_for_replacement="server_name _;\n\trewrite ^\/redirect_me https:\/\/github.com\/Aissamab permanent;"
 sudo sed -i "s/server_name _;/$string_for_replacement/" /etc/nginx/sites-enabled/default
 
-# Restart Nginx
-service nginx restart
+# restaring nginx
+sudo service nginx restart
