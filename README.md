@@ -1,1 +1,1 @@
-this is the redme file for 0x05-processes_and_signals project
+this is the readme file for 0x05-processes_and_signals project
