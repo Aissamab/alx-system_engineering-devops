@@ -3,7 +3,7 @@
 ## 504 Error while accessing a given URL
 
 <p align="center">
-<img src="https://raw.githubusercontent.com/Aissamab/holberton-system_engineering-devops/master/0x19-postmortem/image.gif" width=100% height=100% />
+<img src="https://github.com/Aissamab/alx-system_engineering-devops/blob/master/0x19-postmortem/image.gif?raw=true" width=100% height=100% />
 </p>
 
 ### Incident report for [504 error / Site Outage]
