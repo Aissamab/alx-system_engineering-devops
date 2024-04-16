@@ -10,7 +10,7 @@
 
 #### Summary
 
-On September 11th, 2018 at midnight the server access went down resulting in 504 error for anyone trying to access a website. Background on the server being based on a LAMP stack.
+On April 9th, 2024 at midnight the server access went down resulting in 504 error for anyone trying to access a website. Background on the server being based on a LAMP stack.
 
 #### Timeline
 
